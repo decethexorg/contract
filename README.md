@@ -24,12 +24,12 @@ TOKEN_ADDRESS
 ////////////////////////
 ////////////////////////
 ```
-6. Put this address in `tokenstore/api/src/lib/config.js` so that this line is updated:
+7. Put this address in `tokenstore/api/src/lib/config.js` so that this line is updated:
 ```
 localConfig.contract = mainNet ? '0x1cE7AE555139c5EF5A57CC8d814a867ee6Ee33D8' : '0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ```
 
-7. !!Important!! Each time you run `truffle test` you must update the contract address you get from this output into `tokenstore/api/src/lib/config.js`
+8. !!Important!! Each time you run `truffle test` you must update the contract address you get from this output into `tokenstore/api/src/lib/config.js`
 
 ## Contact
 Email us at tokendotstore@gmail.com with any questions and feedback!
